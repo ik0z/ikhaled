@@ -1,0 +1,221 @@
+body {
+  background-color:#212121;
+}
+#content{
+  width:981px;
+  height:461px;
+  margin:auto;
+   background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, #414350 1px, transparent 1px),
+    linear-gradient(to bottom, #414350 1px, transparent 1px);
+  padding:10px;
+}
+
+.titletop {
+  background-color:#212121;
+  width:160px;
+  padding-top:25px;
+  height:158px;
+  position:relative;
+  margin-left:-10px;
+  margin-top:-33px;
+}
+
+.titlebox {
+  display:absolute;
+  width:140px;
+  height:140px;
+  border:1px solid #414350;
+  font-family:'overpass mono';
+  line-height:450%;
+  font-weight:700;
+}
+
+.title1 {
+  color:#414350;
+  height:69px;
+  border-bottom:1px solid #414350;
+  text-align:center;
+  letter-spacing:8px;
+}
+
+.title2 {
+  text-align:left;
+   background-image:
+    linear-gradient(to left, #414350 50%, #212121 50%);
+  height:70px;
+  color:#414350;
+  padding-left:8px;
+  letter-spacing:4px;
+}
+
+.title2 ion-icon {
+  float:right;
+  color:#212121;
+  font-size:40px;
+  padding-right:14px;
+  margin-top:13px;
+}
+
+.topbar {
+  z-index:2;
+  width:841px;
+  margin-left:184px;
+  background-color:#414350;
+  position:absolute;
+  margin-top:-24px;
+  height:24px;
+  font-family:'overpass mono';
+  color:#000;
+  text-align:left;
+}
+
+.container {margin:auto;
+width:1050px;
+  height:481px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: -240px 0 0 -525px;
+}
+
+.topbar span {
+  padding: 10px;
+  font-size:13px;
+  line-height:200%;
+}
+
+.systemlink {
+  background-color:#212121;
+  width:199px;
+  margin-top:-159px;
+  float:right;
+  margin-right:-9px;
+  font-size:20px;
+  font-family:'overpass';
+  line-height:200%;
+  color:#414350;
+  height:39px;
+  text-align:center;
+  
+}
+
+.systemlink a {
+   color:#414350;
+}
+
+.hello {
+  width:319px;
+  height:359px;
+  background-color:#212121;
+  position:absolute;
+  margin-top:-79px;
+  margin-left:591px;
+}
+
+.error {
+  width:250px;
+  height:290px;
+  background-color:#414350;
+  border:2px solid #212121;
+  margin-left:27px;
+  margin-top:27px;
+  box-shadow:12px 12px #414350;
+  font-family:'overpass mono';
+  font-size:14px;
+}
+
+.errortop {
+  width:245px;
+  height:24px;
+  padding-left:5px;
+  border-bottom:2px solid #212121;
+  line-height:220%;
+  font-size:15px;
+}
+
+.errortxt {
+  padding:15px;
+}
+
+.mainlinks {
+  width:359px;
+  height:114px;
+  margin-left:31px;
+  margin-top:161px;
+  background-color:#212121;
+  position:absolute;
+  padding-top:5px;
+  color:#414350;
+  font-family:'overpass mono';
+  line-height:150%;
+  font-weight:700;
+  font-size:25px;
+  text-align:center;
+  letter-spacing:5px;
+  text-decoration:none;
+}
+
+.underlined-thin {
+	 color: black;
+	 flex: 1;
+	 font-size: 18px;
+	 line-height: 100%;
+	 text-decoration: none;
+	background-image: linear-gradient(to right, #415350 0, #415350 100%);
+	 background-position: 0 100%em;
+	 background-size: 0 100%;
+	 background-repeat: no-repeat;
+	 transition: background 0.5s;
+}
+ .underlined:hover {
+	 background-size: 100% 100%;
+}
+
+
+.filemanager {
+width:359px;
+  height:239px;
+  position:absolute;
+  background-color:#212121;
+  margin-left:191px;
+  margin-top:-119px;
+  font-family:'overpass';
+  text-align:center;
+}
+
+.filetop {
+  width:354px;
+  height:24px;
+  padding-left:5px;
+  background-color:#414350;
+  border-bottom:2px solid #212121;
+  line-height:220%;
+  font-family:'overpass mono';
+  font-size:12px;
+  font-weight:700;
+  text-align:left;
+  margin-bottom:25px;
+  color:#212121;
+}
+
+.filemanager a {
+  display:inline-block;
+  text-align:center;
+  font-size:14px;
+  margin:10px 30px;
+  color:#414350;
+  width:50px;
+}
+
+.filemanager ion-icon {
+  font-size:30px;
+  text-align:center;
+}
+
+.filemanager a:hover span {
+  color:#212121;
+  background-color:#414350;
+}
